@@ -1,3 +1,11 @@
+/* 
+    December 1st
+
+    1. Find the two entries that sum to 2020 and then multiply those two numbers together.
+    2. Find three numbers in your expense report that sum to 2020.
+
+*/
+
 let dataset = `1822
 1917
 1642
@@ -250,4 +258,17 @@ function findThreeNumbers(target){
     return [];
 } 
 
-console.log(findThreeNumbers(2020));
+function multiply(array){
+    if(array.length === 0){
+        return 0
+    } 
+    if(array.length === 1 ){
+        return array[0]
+    }
+
+    return array[0]*multiply(array.slice(1));    
+}
+
+
+console.log(multiply(findThreeNumbers(2020)));
+console.log(multiply(findTwoNumbers(2020)));
