@@ -1058,8 +1058,8 @@ formatted_input = [get_password_and_policy(entry) for entry in puzzle_input.spli
 
 answer = 0
 
-for pair in formatted_input:
-    if check_password(*pair,False):
+for password_and_policy in formatted_input:
+    if check_password(*password_and_policy, False):
         answer += 1
 
 print('Answer: ',answer)
