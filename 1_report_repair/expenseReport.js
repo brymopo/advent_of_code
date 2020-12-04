@@ -1,11 +1,3 @@
-/* 
-    December 1st
-
-    1. Find the two entries that sum to 2020 and then multiply those two numbers together.
-    2. Find three numbers in your expense report that sum to 2020.
-
-*/
-
 let dataset = `1822
 1917
 1642

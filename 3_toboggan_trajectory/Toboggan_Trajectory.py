@@ -1,10 +1,3 @@
-""" Day 3: Toboggan Trajectory
-
-Problem statement:
-https://adventofcode.com/2020/day/3 """
-
-
-
 puzzle_input = """..#.......#..##...#...#..#.#...
 ..##..#..#.....#.........#....#
 ...#.##..#.#......#.#....#.....
