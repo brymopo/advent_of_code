@@ -59,4 +59,3 @@ console.log(`${shinyGoldBagCount} color bags can have at least one shiny gold ba
 let bagsNeeded = countBagsInside(bagsRegulations['shiny gold']) - 1;
 // Answer part two:
 console.log(`one shiny gold bag needs to have ${bagsNeeded} bags inside`);
-
